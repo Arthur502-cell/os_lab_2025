@@ -9,6 +9,8 @@
  * mutex.c
  *
  * Simple multi-threaded example with a mutex lock.
+ *          gcc mutex.c -o no_mutex -pthread
+ *          gcc mutex.c -o with_mutex -pthread
  */
 #include <errno.h>
 #include <pthread.h>
