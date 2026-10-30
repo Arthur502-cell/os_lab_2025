@@ -2,6 +2,14 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=gnu11
 LDLIBS = -pthread
 
+
+#make
+#./server --port 20001 --tnum 4 &
+#./server --port 20002 --tnum 4 &
+#./server --port 20003 --tnum 4 &
+#./client --k 10 --mod 1000000007 --servers servers.txt
+
+
 all: client server
 
 # Статическая библиотека с общим кодом клиента и сервера
